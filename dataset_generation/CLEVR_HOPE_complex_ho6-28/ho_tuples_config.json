@@ -1,0 +1,33 @@
+{
+  "choice_tuples": [
+    "('small', 'brown', 'sphere', 'rubber')",
+    "('small', 'red', 'cylinder', 'metal')",
+    "('large', 'gray', 'cube', 'metal')",
+    "('small', 'purple', 'sphere', 'rubber')"
+  ],
+  "ho_choices": [
+"(None, None, 'sphere', 'rubber')",
+"(None, 'brown', None, 'rubber')",
+"('small', None, None, 'rubber')",
+"(None, 'brown', 'sphere', None)",
+"('small', None, 'sphere', None)",
+"('small', 'brown', None, None)",
+"(None, None, 'cylinder', 'metal')",
+"(None, 'red', None, 'metal')",
+"('small', None, None, 'metal')",
+"(None, 'red', 'cylinder', None)",
+"('small', None, 'cylinder', None)",
+"('small', 'red', None, None)",
+"(None, None, 'cube', 'metal')",
+"(None, 'gray', None, 'metal')",
+"('large', None, None, 'metal')",
+"(None, 'gray', 'cube', None)",
+"('large', None, 'cube', None)",
+"('large', 'gray', None, None)",
+"(None, None, 'cube', 'rubber')",
+"(None, 'purple', None, 'rubber')",
+"(None, 'purple', 'sphere', None)",
+"('small', None, 'cube', None)",
+"('small', 'purple', None, None)"
+  ]
+}

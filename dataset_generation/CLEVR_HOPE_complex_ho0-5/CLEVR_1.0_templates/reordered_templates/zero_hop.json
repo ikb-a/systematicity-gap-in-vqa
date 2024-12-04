@@ -1,0 +1,341 @@
+[
+  {
+    "constraints": [],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "inputs": [
+          0
+        ],
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<M>",
+          "<S>"
+        ],
+        "type": "filter_count"
+      }
+    ],
+    "opp_mapping": [
+      0
+    ],
+    "params": [
+      {
+        "name": "<Z>",
+        "type": "Size"
+      },
+      {
+        "name": "<C>",
+        "type": "Color"
+      },
+      {
+        "name": "<M>",
+        "type": "Material"
+      },
+      {
+        "name": "<S>",
+        "type": "Shape"
+      }
+    ],
+    "text": [
+      "How many <Z> <C> <M> <S>s are there?",
+      "What number of <Z> <C> <M> <S>s are there?"
+    ]
+  },
+  {
+    "constraints": [],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "inputs": [
+          0
+        ],
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<M>",
+          "<S>"
+        ],
+        "type": "filter_exist"
+      }
+    ],
+    "opp_mapping": [
+      0
+    ],
+    "params": [
+      {
+        "name": "<Z>",
+        "type": "Size"
+      },
+      {
+        "name": "<C>",
+        "type": "Color"
+      },
+      {
+        "name": "<M>",
+        "type": "Material"
+      },
+      {
+        "name": "<S>",
+        "type": "Shape"
+      }
+    ],
+    "text": [
+      "Are there any <Z> <C> <M> <S>s?",
+      "Are any <Z> <C> <M> <S>s visible?",
+      "Is there a <Z> <C> <M> <S>?"
+    ]
+  },
+  {
+    "constraints": [
+      {
+        "params": [
+          "<S>"
+        ],
+        "type": "NULL"
+      }
+    ],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "inputs": [
+          0
+        ],
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<M>",
+          "<S>"
+        ],
+        "type": "filter_unique"
+      },
+      {
+        "inputs": [
+          1
+        ],
+        "type": "query_shape"
+      }
+    ],
+    "opp_mapping": [
+      0
+    ],
+    "params": [
+      {
+        "name": "<Z>",
+        "type": "Size"
+      },
+      {
+        "name": "<C>",
+        "type": "Color"
+      },
+      {
+        "name": "<M>",
+        "type": "Material"
+      },
+      {
+        "name": "<S>",
+        "type": "Shape"
+      }
+    ],
+    "text": [
+      "What shape is the <Z> <C> <M> <S>?",
+      "What is the shape of the <Z> <C> <M> <S>?",
+      "The <Z> <C> <M> <S> has what shape?",
+      "What is the shape of the <Z> <C> <M> <S>?",
+      "There is a <Z> <C> <M> <S>; what shape is it?",
+      "The <Z> <C> <M> <S> is what shape?"
+    ]
+  },
+  {
+    "constraints": [
+      {
+        "params": [
+          "<M>"
+        ],
+        "type": "NULL"
+      }
+    ],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "inputs": [
+          0
+        ],
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<M>",
+          "<S>"
+        ],
+        "type": "filter_unique"
+      },
+      {
+        "inputs": [
+          1
+        ],
+        "type": "query_material"
+      }
+    ],
+    "opp_mapping": [
+      0
+    ],
+    "params": [
+      {
+        "name": "<Z>",
+        "type": "Size"
+      },
+      {
+        "name": "<C>",
+        "type": "Color"
+      },
+      {
+        "name": "<M>",
+        "type": "Material"
+      },
+      {
+        "name": "<S>",
+        "type": "Shape"
+      }
+    ],
+    "text": [
+      "What material is the <Z> <C> <M> <S>?",
+      "What is the material of the <Z> <C> <M> <S>?",
+      "What is the <Z> <C> <M> <S> made of?"
+    ]
+  },
+  {
+    "constraints": [
+      {
+        "params": [
+          "<C>"
+        ],
+        "type": "NULL"
+      }
+    ],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "inputs": [
+          0
+        ],
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<M>",
+          "<S>"
+        ],
+        "type": "filter_unique"
+      },
+      {
+        "inputs": [
+          1
+        ],
+        "type": "query_color"
+      }
+    ],
+    "opp_mapping": [
+      0
+    ],
+    "params": [
+      {
+        "name": "<Z>",
+        "type": "Size"
+      },
+      {
+        "name": "<C>",
+        "type": "Color"
+      },
+      {
+        "name": "<M>",
+        "type": "Material"
+      },
+      {
+        "name": "<S>",
+        "type": "Shape"
+      }
+    ],
+    "text": [
+      "What color is the <Z> <C> <M> <S>?",
+      "What is the color of the <Z> <C> <M> <S>?",
+      "The <Z> <C> <M> <S> has what color?",
+      "The <Z> <C> <M> <S> is what color?"
+    ]
+  },
+  {
+    "constraints": [
+      {
+        "params": [
+          "<Z>"
+        ],
+        "type": "NULL"
+      }
+    ],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "inputs": [
+          0
+        ],
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<M>",
+          "<S>"
+        ],
+        "type": "filter_unique"
+      },
+      {
+        "inputs": [
+          1
+        ],
+        "type": "query_size"
+      }
+    ],
+    "opp_mapping": [
+      0
+    ],
+    "params": [
+      {
+        "name": "<Z>",
+        "type": "Size"
+      },
+      {
+        "name": "<C>",
+        "type": "Color"
+      },
+      {
+        "name": "<M>",
+        "type": "Material"
+      },
+      {
+        "name": "<S>",
+        "type": "Shape"
+      }
+    ],
+    "text": [
+      "What size is the <Z> <C> <M> <S>?",
+      "What is the size of the <Z> <C> <M> <S>?",
+      "The <Z> <C> <M> <S> has what size?",
+      "The <Z> <C> <M> <S> is what size?",
+      "How big is the <Z> <C> <M> <S>?"
+    ]
+  }
+]

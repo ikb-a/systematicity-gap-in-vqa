@@ -1,0 +1,11 @@
+{
+  "reuse_scene_graph_paths": {
+    "CLEVR_train": "/u/ianberlot/datasets/ori_clevr/CLEVR_v1.0/scenes/CLEVR_train_scenes.json"
+  },
+  "reuse_dataset_names": [
+    "CLEVR_train"
+  ],
+  "reuse_image_directories": {
+    "CLEVR_train": "/u/ianberlot/datasets/ori_clevr/CLEVR_v1.0/images/train"
+  }
+}

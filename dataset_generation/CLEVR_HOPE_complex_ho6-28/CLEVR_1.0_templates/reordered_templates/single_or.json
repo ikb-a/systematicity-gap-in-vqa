@@ -1,0 +1,1028 @@
+[
+  {
+    "constraints": [
+      {
+        "params": [
+          3,
+          1
+        ],
+        "type": "OUT_NEQ"
+      }
+    ],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "inputs": [
+          0
+        ],
+        "side_inputs": [
+          "<Z2>",
+          "<C2>",
+          "<M2>",
+          "<S2>"
+        ],
+        "type": "filter"
+      },
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "inputs": [
+          2
+        ],
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<M>",
+          "<S>"
+        ],
+        "type": "filter"
+      },
+      {
+        "inputs": [
+          3,
+          1
+        ],
+        "type": "union"
+      },
+      {
+        "inputs": [
+          4
+        ],
+        "type": "count"
+      }
+    ],
+    "opp_mapping": [
+      1,
+      0
+    ],
+    "params": [
+      {
+        "name": "<Z>",
+        "type": "Size"
+      },
+      {
+        "name": "<C>",
+        "type": "Color"
+      },
+      {
+        "name": "<M>",
+        "type": "Material"
+      },
+      {
+        "name": "<S>",
+        "type": "Shape"
+      },
+      {
+        "name": "<Z2>",
+        "type": "Size"
+      },
+      {
+        "name": "<C2>",
+        "type": "Color"
+      },
+      {
+        "name": "<M2>",
+        "type": "Material"
+      },
+      {
+        "name": "<S2>",
+        "type": "Shape"
+      }
+    ],
+    "text": [
+      "How many things are [either] <Z> <C> <M> <S>s or <Z2> <C2> <M2> <S2>s?",
+      "How many objects are [either] <Z> <C> <M> <S>s or <Z2> <C2> <M2> <S2>s?",
+      "What number of things are [either] <Z> <C> <M> <S>s or <Z2> <C2> <M2> <S2>s?",
+      "What number of objects are [either] <Z> <C> <M> <S>s or <Z2> <C2> <M2> <S2>s?"
+    ]
+  },
+  {
+    "constraints": [
+      {
+        "params": [
+          3,
+          1
+        ],
+        "type": "OUT_NEQ"
+      },
+      {
+        "params": [
+          "<Z>"
+        ],
+        "type": "NULL"
+      },
+      {
+        "params": [
+          "<Z2>"
+        ],
+        "type": "NULL"
+      }
+    ],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "inputs": [
+          0
+        ],
+        "side_inputs": [
+          "<Z2>",
+          "<C2>",
+          "<M2>",
+          "<S2>"
+        ],
+        "type": "filter"
+      },
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "inputs": [
+          2
+        ],
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<M>",
+          "<S>"
+        ],
+        "type": "filter"
+      },
+      {
+        "inputs": [
+          3,
+          1
+        ],
+        "type": "union"
+      },
+      {
+        "inputs": [
+          4
+        ],
+        "side_inputs": [
+          "<Z3>"
+        ],
+        "type": "filter_size"
+      },
+      {
+        "inputs": [
+          5
+        ],
+        "type": "count"
+      }
+    ],
+    "opp_mapping": [
+      1,
+      0
+    ],
+    "params": [
+      {
+        "name": "<Z>",
+        "type": "Size"
+      },
+      {
+        "name": "<C>",
+        "type": "Color"
+      },
+      {
+        "name": "<M>",
+        "type": "Material"
+      },
+      {
+        "name": "<S>",
+        "type": "Shape"
+      },
+      {
+        "name": "<Z2>",
+        "type": "Size"
+      },
+      {
+        "name": "<C2>",
+        "type": "Color"
+      },
+      {
+        "name": "<M2>",
+        "type": "Material"
+      },
+      {
+        "name": "<S2>",
+        "type": "Shape"
+      },
+      {
+        "name": "<Z3>",
+        "type": "Size"
+      }
+    ],
+    "text": [
+      "How many <Z3> things are [either] <Z> <C> <M> <S>s or <Z2> <C2> <M2> <S2>s?",
+      "How many <Z3> objects are [either] <Z> <C> <M> <S>s or <Z2> <C2> <M2> <S2>s?",
+      "What number of <Z3> things are [either] <Z> <C> <M> <S>s or <Z2> <C2> <M2> <S2>s?",
+      "What number of <Z3> objects are [either] <Z> <C> <M> <S>s or <Z2> <C2> <M2> <S2>s?"
+    ]
+  },
+  {
+    "constraints": [
+      {
+        "params": [
+          3,
+          1
+        ],
+        "type": "OUT_NEQ"
+      },
+      {
+        "params": [
+          "<C>"
+        ],
+        "type": "NULL"
+      },
+      {
+        "params": [
+          "<C2>"
+        ],
+        "type": "NULL"
+      }
+    ],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "inputs": [
+          0
+        ],
+        "side_inputs": [
+          "<Z2>",
+          "<C2>",
+          "<M2>",
+          "<S2>"
+        ],
+        "type": "filter"
+      },
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "inputs": [
+          2
+        ],
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<M>",
+          "<S>"
+        ],
+        "type": "filter"
+      },
+      {
+        "inputs": [
+          3,
+          1
+        ],
+        "type": "union"
+      },
+      {
+        "inputs": [
+          4
+        ],
+        "side_inputs": [
+          "<C3>"
+        ],
+        "type": "filter_color"
+      },
+      {
+        "inputs": [
+          5
+        ],
+        "type": "count"
+      }
+    ],
+    "opp_mapping": [
+      1,
+      0
+    ],
+    "params": [
+      {
+        "name": "<Z>",
+        "type": "Size"
+      },
+      {
+        "name": "<C>",
+        "type": "Color"
+      },
+      {
+        "name": "<M>",
+        "type": "Material"
+      },
+      {
+        "name": "<S>",
+        "type": "Shape"
+      },
+      {
+        "name": "<Z2>",
+        "type": "Size"
+      },
+      {
+        "name": "<C2>",
+        "type": "Color"
+      },
+      {
+        "name": "<M2>",
+        "type": "Material"
+      },
+      {
+        "name": "<S2>",
+        "type": "Shape"
+      },
+      {
+        "name": "<C3>",
+        "type": "Color"
+      }
+    ],
+    "text": [
+      "How many <C3> things are [either] <Z> <C> <M> <S>s or <Z2> <C2> <M2> <S2>s?",
+      "How many <C3> objects are [either] <Z> <C> <M> <S>s or <Z2> <C2> <M2> <S2>s?",
+      "What number of <C3> things are [either] <Z> <C> <M> <S>s or <Z2> <C2> <M2> <S2>s?",
+      "What number of <C3> objects are [either] <Z> <C> <M> <S>s or <Z2> <C2> <M2> <S2>s?"
+    ]
+  },
+  {
+    "constraints": [],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "inputs": [
+          0
+        ],
+        "side_inputs": [
+          "<Z3>",
+          "<C3>",
+          "<M3>",
+          "<S3>"
+        ],
+        "type": "filter_unique"
+      },
+      {
+        "inputs": [
+          1
+        ],
+        "side_inputs": [
+          "<R2>",
+          "<Z4>",
+          "<C4>",
+          "<M4>",
+          "<S4>"
+        ],
+        "type": "relate_filter"
+      },
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "inputs": [
+          3
+        ],
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<M>",
+          "<S>"
+        ],
+        "type": "filter_unique"
+      },
+      {
+        "inputs": [
+          4
+        ],
+        "side_inputs": [
+          "<R>",
+          "<Z2>",
+          "<C2>",
+          "<M2>",
+          "<S2>"
+        ],
+        "type": "relate_filter"
+      },
+      {
+        "inputs": [
+          5,
+          2
+        ],
+        "type": "union"
+      },
+      {
+        "inputs": [
+          6
+        ],
+        "type": "count"
+      }
+    ],
+    "opp_mapping": [
+      2,
+      3,
+      0,
+      1
+    ],
+    "params": [
+      {
+        "name": "<Z>",
+        "type": "Size"
+      },
+      {
+        "name": "<C>",
+        "type": "Color"
+      },
+      {
+        "name": "<M>",
+        "type": "Material"
+      },
+      {
+        "name": "<S>",
+        "type": "Shape"
+      },
+      {
+        "name": "<R>",
+        "type": "Relation"
+      },
+      {
+        "name": "<Z2>",
+        "type": "Size"
+      },
+      {
+        "name": "<C2>",
+        "type": "Color"
+      },
+      {
+        "name": "<M2>",
+        "type": "Material"
+      },
+      {
+        "name": "<S2>",
+        "type": "Shape"
+      },
+      {
+        "name": "<Z3>",
+        "type": "Size"
+      },
+      {
+        "name": "<C3>",
+        "type": "Color"
+      },
+      {
+        "name": "<M3>",
+        "type": "Material"
+      },
+      {
+        "name": "<S3>",
+        "type": "Shape"
+      },
+      {
+        "name": "<R2>",
+        "type": "Relation"
+      },
+      {
+        "name": "<Z4>",
+        "type": "Size"
+      },
+      {
+        "name": "<C4>",
+        "type": "Color"
+      },
+      {
+        "name": "<M4>",
+        "type": "Material"
+      },
+      {
+        "name": "<S4>",
+        "type": "Shape"
+      }
+    ],
+    "text": [
+      "How many things are [either] <Z2> <C2> <M2> <S2>s [that are] <R> the <Z> <C> <M> <S> or <Z4> <C4> <M4> <S4>s [that are] <R2> the <Z3> <C3> <M3> <S3>?",
+      "How many objects are [either] <Z2> <C2> <M2> <S2>s [that are] <R> the <Z> <C> <M> <S> or <Z4> <C4> <M4> <S4>s [that are] <R2> the <Z3> <C3> <M3> <S3>?",
+      "What number of objects are [either] <Z2> <C2> <M2> <S2>s [that are] <R> the <Z> <C> <M> <S> or <Z4> <C4> <M4> <S4>s [that are] <R2> the <Z3> <C3> <M3> <S3>?",
+      "What number of things are [either] <Z2> <C2> <M2> <S2>s [that are] <R> the <Z> <C> <M> <S> or <Z4> <C4> <M4> <S4>s [that are] <R2> the <Z3> <C3> <M3> <S3>?"
+    ]
+  },
+  {
+    "constraints": [
+      {
+        "params": [
+          3,
+          1
+        ],
+        "type": "OUT_NEQ"
+      },
+      {
+        "params": [
+          "<M>"
+        ],
+        "type": "NULL"
+      },
+      {
+        "params": [
+          "<M2>"
+        ],
+        "type": "NULL"
+      }
+    ],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "inputs": [
+          0
+        ],
+        "side_inputs": [
+          "<Z2>",
+          "<C2>",
+          "<M2>",
+          "<S2>"
+        ],
+        "type": "filter"
+      },
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "inputs": [
+          2
+        ],
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<M>",
+          "<S>"
+        ],
+        "type": "filter"
+      },
+      {
+        "inputs": [
+          3,
+          1
+        ],
+        "type": "union"
+      },
+      {
+        "inputs": [
+          4
+        ],
+        "side_inputs": [
+          "<M3>"
+        ],
+        "type": "filter_material"
+      },
+      {
+        "inputs": [
+          5
+        ],
+        "type": "count"
+      }
+    ],
+    "opp_mapping": [
+      1,
+      0
+    ],
+    "params": [
+      {
+        "name": "<Z>",
+        "type": "Size"
+      },
+      {
+        "name": "<C>",
+        "type": "Color"
+      },
+      {
+        "name": "<M>",
+        "type": "Material"
+      },
+      {
+        "name": "<S>",
+        "type": "Shape"
+      },
+      {
+        "name": "<Z2>",
+        "type": "Size"
+      },
+      {
+        "name": "<C2>",
+        "type": "Color"
+      },
+      {
+        "name": "<M2>",
+        "type": "Material"
+      },
+      {
+        "name": "<S2>",
+        "type": "Shape"
+      },
+      {
+        "name": "<M3>",
+        "type": "Material"
+      }
+    ],
+    "text": [
+      "How many <M3> things are [either] <Z> <C> <M> <S>s or <Z2> <C2> <M2> <S2>s?",
+      "How many <M3> objects are [either] <Z> <C> <M> <S>s or <Z2> <C2> <M2> <S2>s?",
+      "What number of <M3> things are [either] <Z> <C> <M> <S>s or <Z2> <C2> <M2> <S2>s?",
+      "What number of <M3> objects are [either] <Z> <C> <M> <S>s or <Z2> <C2> <M2> <S2>s?"
+    ]
+  },
+  {
+    "constraints": [
+      {
+        "params": [
+          3,
+          1
+        ],
+        "type": "OUT_NEQ"
+      },
+      {
+        "params": [
+          "<S>"
+        ],
+        "type": "NULL"
+      },
+      {
+        "params": [
+          "<S2>"
+        ],
+        "type": "NULL"
+      }
+    ],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "inputs": [
+          0
+        ],
+        "side_inputs": [
+          "<Z2>",
+          "<C2>",
+          "<M2>",
+          "<S2>"
+        ],
+        "type": "filter"
+      },
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "inputs": [
+          2
+        ],
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<M>",
+          "<S>"
+        ],
+        "type": "filter"
+      },
+      {
+        "inputs": [
+          3,
+          1
+        ],
+        "type": "union"
+      },
+      {
+        "inputs": [
+          4
+        ],
+        "side_inputs": [
+          "<S3>"
+        ],
+        "type": "filter_shape"
+      },
+      {
+        "inputs": [
+          5
+        ],
+        "type": "count"
+      }
+    ],
+    "opp_mapping": [
+      1,
+      0
+    ],
+    "params": [
+      {
+        "name": "<Z>",
+        "type": "Size"
+      },
+      {
+        "name": "<C>",
+        "type": "Color"
+      },
+      {
+        "name": "<M>",
+        "type": "Material"
+      },
+      {
+        "name": "<S>",
+        "type": "Shape"
+      },
+      {
+        "name": "<Z2>",
+        "type": "Size"
+      },
+      {
+        "name": "<C2>",
+        "type": "Color"
+      },
+      {
+        "name": "<M2>",
+        "type": "Material"
+      },
+      {
+        "name": "<S2>",
+        "type": "Shape"
+      },
+      {
+        "name": "<S3>",
+        "type": "Shape"
+      }
+    ],
+    "text": [
+      "How many <S3>s are [either] <Z> <C> <M> <S>s or <Z2> <C2> <M2> <S2>s?",
+      "What number of <S3>s are [either] <Z> <C> <M> <S>s or <Z2> <C2> <M2> <S2>s?"
+    ]
+  },
+  {
+    "constraints": [],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "inputs": [
+          0
+        ],
+        "side_inputs": [
+          "<Z3>",
+          "<C3>",
+          "<M3>",
+          "<S3>"
+        ],
+        "type": "filter"
+      },
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "inputs": [
+          2
+        ],
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<M>",
+          "<S>"
+        ],
+        "type": "filter_unique"
+      },
+      {
+        "inputs": [
+          3
+        ],
+        "side_inputs": [
+          "<R>",
+          "<Z2>",
+          "<C2>",
+          "<M2>",
+          "<S2>"
+        ],
+        "type": "relate_filter"
+      },
+      {
+        "inputs": [
+          4,
+          1
+        ],
+        "type": "union"
+      },
+      {
+        "inputs": [
+          5
+        ],
+        "type": "count"
+      }
+    ],
+    "opp_mapping": [
+      1,
+      2,
+      0
+    ],
+    "params": [
+      {
+        "name": "<Z>",
+        "type": "Size"
+      },
+      {
+        "name": "<C>",
+        "type": "Color"
+      },
+      {
+        "name": "<M>",
+        "type": "Material"
+      },
+      {
+        "name": "<S>",
+        "type": "Shape"
+      },
+      {
+        "name": "<R>",
+        "type": "Relation"
+      },
+      {
+        "name": "<Z2>",
+        "type": "Size"
+      },
+      {
+        "name": "<C2>",
+        "type": "Color"
+      },
+      {
+        "name": "<M2>",
+        "type": "Material"
+      },
+      {
+        "name": "<S2>",
+        "type": "Shape"
+      },
+      {
+        "name": "<Z3>",
+        "type": "Size"
+      },
+      {
+        "name": "<C3>",
+        "type": "Color"
+      },
+      {
+        "name": "<M3>",
+        "type": "Material"
+      },
+      {
+        "name": "<S3>",
+        "type": "Shape"
+      }
+    ],
+    "text": [
+      "How many things are [either] <Z2> <C2> <M2> <S2>s [that are] <R> the <Z> <C> <M> <S> or <Z3> <C3> <M3> <S3>s?",
+      "How many objects are [either] <Z2> <C2> <M2> <S2>s [that are] <R> the <Z> <C> <M> <S> or <Z3> <C3> <M3> <S3>s?",
+      "What number of things are [either] <Z2> <C2> <M2> <S2>s [that are] <R> the <Z> <C> <M> <S> or <Z3> <C3> <M3> <S3>s?",
+      "What number of objects are [either] <Z2> <C2> <M2> <S2>s [that are] <R> the <Z> <C> <M> <S> or <Z3> <C3> <M3> <S3>s?"
+    ]
+  },
+  {
+    "constraints": [],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "inputs": [
+          0
+        ],
+        "side_inputs": [
+          "<Z2>",
+          "<C2>",
+          "<M2>",
+          "<S2>"
+        ],
+        "type": "filter_unique"
+      },
+      {
+        "inputs": [
+          1
+        ],
+        "side_inputs": [
+          "<R>",
+          "<Z3>",
+          "<C3>",
+          "<M3>",
+          "<S3>"
+        ],
+        "type": "relate_filter"
+      },
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "inputs": [
+          3
+        ],
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<M>",
+          "<S>"
+        ],
+        "type": "filter"
+      },
+      {
+        "inputs": [
+          4,
+          2
+        ],
+        "type": "union"
+      },
+      {
+        "inputs": [
+          5
+        ],
+        "type": "count"
+      }
+    ],
+    "opp_mapping": [
+      2,
+      0,
+      1
+    ],
+    "params": [
+      {
+        "name": "<Z>",
+        "type": "Size"
+      },
+      {
+        "name": "<C>",
+        "type": "Color"
+      },
+      {
+        "name": "<M>",
+        "type": "Material"
+      },
+      {
+        "name": "<S>",
+        "type": "Shape"
+      },
+      {
+        "name": "<Z2>",
+        "type": "Size"
+      },
+      {
+        "name": "<C2>",
+        "type": "Color"
+      },
+      {
+        "name": "<M2>",
+        "type": "Material"
+      },
+      {
+        "name": "<S2>",
+        "type": "Shape"
+      },
+      {
+        "name": "<R>",
+        "type": "Relation"
+      },
+      {
+        "name": "<Z3>",
+        "type": "Size"
+      },
+      {
+        "name": "<C3>",
+        "type": "Color"
+      },
+      {
+        "name": "<M3>",
+        "type": "Material"
+      },
+      {
+        "name": "<S3>",
+        "type": "Shape"
+      }
+    ],
+    "text": [
+      "How many things are [either] <Z> <C> <M> <S>s or <Z3> <C3> <M3> <S3>s [that are] <R> the <Z2> <C2> <M2> <S2>?",
+      "How many objects are [either] <Z> <C> <M> <S>s or <Z3> <C3> <M3> <S3>s [that are] <R> the <Z2> <C2> <M2> <S2>?",
+      "What number of things are [either] <Z> <C> <M> <S>s or <Z3> <C3> <M3> <S3>s [that are] <R> the <Z2> <C2> <M2> <S2>?",
+      "What number of objects are [either] <Z> <C> <M> <S>s or <Z3> <C3> <M3> <S3>s [that are] <R> the <Z2> <C2> <M2> <S2>?"
+    ]
+  }
+]

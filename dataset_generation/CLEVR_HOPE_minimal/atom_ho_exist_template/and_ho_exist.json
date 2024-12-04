@@ -1,0 +1,50 @@
+{
+  "text": [
+    "Are there any <Z> <C> <M> <S>s?",
+    "Are any <Z> <C> <M> <S>s visible?",
+    "Is there a <Z> <C> <M> <S>?"
+  ],
+  "nodes": [
+    {
+      "inputs": [],
+      "type": "scene"
+    },
+    {
+      "side_inputs": [
+        "<Z>",
+        "<C>",
+        "<M>",
+        "<S>"
+      ],
+      "side_input_vals": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "inputs": [
+        0
+      ],
+      "type": "filter_exist"
+    }
+  ],
+  "params": [
+    {
+      "type": "Size",
+      "name": "<Z>"
+    },
+    {
+      "type": "Color",
+      "name": "<C>"
+    },
+    {
+      "type": "Material",
+      "name": "<M>"
+    },
+    {
+      "type": "Shape",
+      "name": "<S>"
+    }
+  ],
+  "constraints": []
+}

@@ -1,0 +1,12 @@
+matplotlib
+numpy
+pytorch-lightning
+torch
+torchvision
+timm
+wandb
+ruamel_yaml
+transformers==4.8.1
+wget
+opencv-python
+h5py
