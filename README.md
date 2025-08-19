@@ -4,7 +4,7 @@ This is the official repository for the paper ["Attribute Diversity Determines t
 
 ## Download the CLEVR-HOPE dataset
 
-The CLEVR-HOPE dataset is coming to Hugging Face soon! A more compact, 350GB version of CLEVR-HOPE can be downloaded from [the internet archive](https://archive.org/details/CLEVR-HOPE).
+The CLEVR-HOPE dataset is available on [Hugging Face](https://huggingface.co/datasets/user9000/CLEVR-HOPE). A more compact, 350GB version of CLEVR-HOPE can be downloaded from [the internet archive](https://archive.org/details/CLEVR-HOPE).
 
 ## Data generation code
 
